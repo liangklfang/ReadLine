@@ -30,7 +30,7 @@ rl.write(data[, key])
 rl.write('Delete me!');
 // Simulate ctrl+u to delete the line written previously
 rl.write(null, {ctrl: true, name: 'u'});
-
+readline.createInterface(options)方法：
 
 
 
